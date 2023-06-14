@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.componentsBody {
+  margin-top: 25px;
+  margin-bottom: 38px;
+}
+
+
+/* HEADER */
+.card--header, .main-section {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card--header img {
+  width: 380px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-intro {
+  width: 100%;
+  background-color: #20232a;
+  color: white
+}
+
+.card-fullName, .card-job-title, .card-personal-website {
+  display: block;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.card-fullName {
+  margin-top: 12px !important;
+}
+
+.card-job-title {
+  color: #dbac63;
+  font-weight: 100;
+}
+
+.card-personal-website {
+  margin-top: 10px;
+}
+
+.card-profile-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-email-button, .card-linked-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 140px;
+  border: 1px solid black;
+  background: #eee;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+
+.linked-text, .mail-text {
+  margin-left: 10px;
+}
+
+
+/* Main Section */
+.main-section {
+  background-color: #20232a;
+  color: #fff;
+}
+
+.main-about, .main-interests {
+  padding: 9px;
+  margin-top: 25px;
+  width: 80%;
+}
+
+.main-about h3, p, .main-interests h3, p {
+  margin: 0px;
+}
+
+.main-about h3 {
+  padding-top: 15px;
+}
+
+.main-interests p {
+  margin-bottom: 38px;
+}
+
+/* Footer */
+.card-footer {
+  width: 380px;
+  margin: 0 auto;
+}
+
+.card-footer ul {  
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 25px 0px;
+  margin-top: 0px;
+  background: #1b1d23;
+  color: #fff;
+}
+
+.card-footer ul li {
+  font-size: 28px;
+  cursor: pointer;
+}
